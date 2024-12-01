@@ -1,0 +1,138 @@
+h1{
+
+    text-align: center;
+    color:black;
+}
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Libre+Franklin',sans-serif;
+    
+}
+#banner{
+    width:100%;
+    object-fit: cover;
+}
+.location{
+    color:gray;
+    margin-bottom:16px; 
+}
+#jav{
+    padding:8xp;
+
+}
+.logo{
+    height:30px;
+}
+#about{
+    display:flex;
+    max-width:800px ;
+    margin:0 auto;
+    padding:8px;
+}
+#descripition{
+    width:50%;
+    padding:8px;
+}
+#team{
+    width:50%;
+    
+}
+#teampeople{
+    border-radius:5px ;
+    width:100%;
+    height:100%;
+}
+h2{
+    text-align: center;
+}
+#jobs{
+    max-width: 800px;
+    margin:0 auto;
+    padding:8px;
+}
+.job-role{
+    margin-bottom:4px;
+}
+.apply{
+    float:right;
+}
+a{
+    text-decoration:none ;
+}
+#chinna{
+    background-color: ghostwhite;
+    margin-top: 32px;
+    padding:8px;
+    text-align:center ;
+
+
+}
+#footer-links{
+    
+    list-style:none ;
+ 
+}
+#footer-links li{
+    display:inline;
+    margin: 0 16px ;
+}
+.copyright{
+    color:gray;
+}
+#jobtable {
+    width:100%;
+    border:1px solid gray;
+    border-collapse: collapse;
+}
+.job-header th{
+    border:1px solid gray;
+    padding:8px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.job-data td{
+    border:1px solid gray;
+    padding:8px;
+}
+#jobtable tr:nth-child(odd){
+    background-color: bisque;
+}
+
+
+#application{
+    max-width: 800px;
+    margin:0 auto;
+    padding:0 8px;
+}
+
+#application-form label{
+    font-weight: 600px;
+}
+#application-form input,select,textarea{
+    padding:4px;
+    font-size: 1.25;
+    margin-top: 4px;
+    border-radius:5px;
+    border:1px solid gray;
+
+}
+ #application-form div{
+    margin:16px;
+    justify-content: center;
+ }
+.formgroup textarea{
+    width:70%;
+}
+.formgroup input [type="checkbox"] {
+    width:16px;
+    height:16px;
+}
+
+.formgroup input[ type="submit"]{
+    background-color: rgb(98, 98, 255);
+    color:beige;
+    padding:16px 16px 16px 16px;
+    font-weight:500px;
+    cursor:pointer;
+}
